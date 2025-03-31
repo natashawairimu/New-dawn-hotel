@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New dawn hotel</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 id="hotelName">New dawn</h1>
+                <p>Hotel & Resorts</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to <span id="hotelNameHero">New dawn</span></h1>
+            <p id="hotelDescription">Luxury hotel with world-class amenities</p>
+            <a href="#rooms" class="btn">View Rooms</a>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room-list" id="roomList">
+            </div>
+            
+            <div id="bookingFormContainer" class="booking-form-container">
+                <h3>Book Your Stay</h3>
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label for="bookingRoomType">Room Type:</label>
+                        <input type="text" id="bookingRoomType" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingCheckIn">Check-in Date:</label>
+                        <input type="date" id="bookingCheckIn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingCheckOut">Check-out Date:</label>
+                        <input type="date" id="bookingCheckOut" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingGuests">Number of Guests:</label>
+                        <input type="number" id="bookingGuests" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingName">Full Name:</label>
+                        <input type="text" id="bookingName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingEmail">Email:</label>
+                        <input type="email" id="bookingEmail" required>
+                    </div>
+                    <button type="submit" class="btn">Confirm Booking</button>
+                </form>
+                <div id="bookingAlert" class="alert">Booking successful! We've sent a confirmation to your email.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonial-list" id="testimonialList">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> <span id="hotelAddress">123 Luxury Avenue</span></p>
+                <p><strong>Phone:</strong> <span id="hotelPhone">+1 (555) 123-4567</span></p>
+                <p><strong>Email:</strong> <span id="hotelEmail">info@newdawn.com</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> <span id="hotelNameFooter">New dawn</span>. All rights reserved.</p>0
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

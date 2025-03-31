@@ -1,0 +1,46 @@
+{
+    "hotel": {
+      "name": "New dawn",
+      "description": "Luxury hotel with world-class amenities",
+      "address": "123 Luxury Avenue, Downtown, City 10001",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@newdawn.com"
+    },
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": 199,
+        "description": "Spacious room with city view",
+        "image": "assets/hotel-room2.jpeg"
+      },
+      {
+        "type": "Executive Suite",
+        "price": 299,
+        "description": "Luxury suite with separate living area",
+        "image": "assets/hotel-room3.jpeg"
+      },
+      {
+        "type": "Presidential Suite",
+        "price": 499,
+        "description": "Our most luxurious accommodation",
+        "image": "assets/hotel-room4.jpeg"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Sarah Johnson",
+        "location": "New York, USA",
+        "comment": "The service was exceptional from the moment we arrived."
+      },
+      {
+        "name": "Michael Chen",
+        "location": "Toronto, Canada",
+        "comment": "The rooms are spacious and beautifully designed."
+      },
+      {
+        "name": "Emma Rodriguez",
+        "location": "London, UK",
+        "comment": "New Dawn stands out for its attention to detail."
+      }
+    ]
+  }
